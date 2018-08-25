@@ -1,0 +1,17 @@
+body {
+    background-color: gray;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: repeat(6, 1fr);
+    align-content: center;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+img {
+    width: 200px;
+    height: 100px;
+}
